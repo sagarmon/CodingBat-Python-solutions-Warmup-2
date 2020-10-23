@@ -1,3 +1,7 @@
+'''
+Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+'''
+
 def string_match(a, b):
     result = 0
     for i in range(len(a) - 1):
